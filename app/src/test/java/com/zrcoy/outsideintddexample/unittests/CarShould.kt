@@ -9,9 +9,9 @@ import org.mockito.Mockito.*
 
 
 class CarShould {
-    val engine = mock(Engine::class.java)
+    private val engine = mock(Engine::class.java)
 
-    val car = Car(4.5,engine);
+    private val car = Car(4.5,engine);
 
 
     @Test

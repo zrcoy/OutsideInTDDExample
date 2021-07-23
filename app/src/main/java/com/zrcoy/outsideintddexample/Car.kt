@@ -1,8 +1,12 @@
 package com.zrcoy.outsideintddexample
 
-class Car(var fuel:Double, val engine:Engine) {
+class Car(
+    var fuel : Double,
+    val engine : Engine
+    ) {
+
     fun turnOn(){
-        fuel-=0.5;
+        fuel -= 0.5;
         engine.turnOn();
     }
 }

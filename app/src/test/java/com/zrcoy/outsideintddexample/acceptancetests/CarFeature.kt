@@ -6,8 +6,8 @@ import junit.framework.Assert.assertEquals
 import org.junit.Test
 
 class CarFeature {
-    val engine = Engine();
-    val car = Car(5.0,engine);
+    private val engine = Engine();
+    private val car = Car(5.0,engine);
 
     @Test
     fun carIsLosingFuelWhenTurnOn(){
